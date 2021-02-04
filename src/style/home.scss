@@ -1,0 +1,13 @@
+.game-list {
+  padding: 0rem 5rem;
+}
+.games {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
+.gamewrap {
+  margin-top: 4rem;
+}

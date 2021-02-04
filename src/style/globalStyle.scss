@@ -1,0 +1,56 @@
+// Global style
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  &::-webkit-scrollbar {
+    width: 0.2rem;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Abril Fatface", cursive;
+  font-weight: lighter;
+  color: #333;
+}
+h3 {
+  font-size: 1rem;
+  color: #333;
+  padding: 1.5rem 0;
+}
+p {
+  font-size: 0.8rem;
+  line-height: 200%;
+  color: #69696969;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+input {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
